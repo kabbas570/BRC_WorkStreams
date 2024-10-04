@@ -1,12 +1,12 @@
 import numpy as np
 
-p1 = np.array([241, 292, 147])
+p1 = np.array([241, 292, 147]) ### These are three points before the selected point at which the Segmentation is to be cropped 
 p2 = np.array([242, 292, 148])
 p3 = np.array([245, 292, 149])
 
 p_org = np.array([244,292,150])
 
-p4 = np.array([245, 293, 151])
+p4 = np.array([245, 293, 151])  ### These are three points after  the selected point at which the Segmentation is to be cropped 
 p5 = np.array([246, 291, 151])
 p6 = np.array([246, 292, 151])
 
